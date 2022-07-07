@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.FactoryMethod;
 
-public class Client
+public class FactoryMethodClient
 {
     public void Main()
     {
@@ -13,6 +13,6 @@ public class Client
     
     public void ClientCode(Creator creator)
     {
-        Console.WriteLine("Klient: (nie widzi klas kreatorów)\n" + creator.Operation());
+        Console.WriteLine("Client: I'm not aware of creator's class\n" + creator.Operation());
     }
 }
