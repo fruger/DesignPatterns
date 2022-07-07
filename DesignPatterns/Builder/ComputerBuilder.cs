@@ -33,4 +33,18 @@ public class ComputerBuilder: IComputerBuilder
     {
         _computer.Add("Hard drive");
     }
+    
+    public void AddBluetoothModule()
+    {
+        _computer.Add("Bluetooth module");
+    }
+
+    public Computer GetProduct()
+    {
+        Computer result = _computer;
+        
+        Reset();
+
+        return result;
+    }
 }
