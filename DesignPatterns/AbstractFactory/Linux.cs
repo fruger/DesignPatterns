@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.AbstractFactory;
 
-public interface IPc
+public class Linux
 {
-    string TurnOn();
+    
 }
