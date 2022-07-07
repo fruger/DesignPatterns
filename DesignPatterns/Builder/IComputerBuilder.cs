@@ -6,4 +6,5 @@ public interface IComputerBuilder
     void AddGraphicsCard();
     void AddMotherboard();
     void AddHardDrive();
+    void AddBluetoothModule();
 }
