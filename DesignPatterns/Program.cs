@@ -3,6 +3,7 @@
 using DesignPatterns.FactoryMethod;
 using DesignPatterns.AbstractFactory;
 using DesignPatterns.Builder;
+using DesignPatterns.Command;
 using DesignPatterns.Decorator;
 
 Console.WriteLine("----------Factory Method----------");
@@ -16,6 +17,13 @@ new BuilderClient().Main();
 
 Console.WriteLine("----------Decorator----------");
 new DecoratorClient().Main();
+
+Console.WriteLine("----------Command----------");
+new CommandClient().CheckAction("Music");
+new CommandClient().CheckAction("Paint");
+new CommandClient().CheckAction("Calculation");
+new CommandClient().CheckAction("WebBrowser");
+
 
 
 
