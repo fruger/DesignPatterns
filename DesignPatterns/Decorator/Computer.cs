@@ -2,5 +2,5 @@
 
 public abstract class Computer
 {
-    public abstract string Message();
+    public abstract string TurnOn();
 }
