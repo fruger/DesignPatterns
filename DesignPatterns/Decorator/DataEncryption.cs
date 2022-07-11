@@ -8,6 +8,6 @@ public class DataEncryption: Protection
 
     public override string TurnOn()
     {
-        return $"{base.TurnOn()} Data Encryption";
+        return $"Data Encryption({base.TurnOn()})";
     }
 }

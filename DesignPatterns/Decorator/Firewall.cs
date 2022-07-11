@@ -8,6 +8,6 @@ public class Firewall: Protection
 
     public override string TurnOn()
     {
-        return $"{base.TurnOn()} Firewall";
+        return $"Firewall({base.TurnOn()})";
     }
 }
