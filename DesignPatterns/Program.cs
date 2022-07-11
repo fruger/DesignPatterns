@@ -15,14 +15,7 @@ Console.WriteLine("----------Builder----------");
 new BuilderClient().Main();
 
 Console.WriteLine("----------Decorator----------");
-DecoratorClient decoratorClient = new();
+new DecoratorClient().Main();
 
-var simple = new DecoratorPc();
-decoratorClient.ClientCode(simple);
-Console.WriteLine();
 
-Firewall firewall = new(simple);
-DataEncryption dataEncryption = new(firewall);
-Console.WriteLine("Client: Now I've got a protected Pc:");
-decoratorClient.ClientCode(dataEncryption);
 
