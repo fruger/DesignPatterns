@@ -19,10 +19,7 @@ Console.WriteLine("----------Decorator----------");
 new DecoratorClient().Main();
 
 Console.WriteLine("----------Command----------");
-new CommandClient().CheckAction("Music");
-new CommandClient().CheckAction("Paint");
-new CommandClient().CheckAction("Calculation");
-new CommandClient().CheckAction("WebBrowser");
+new CommandClient().Main();
 
 
 
